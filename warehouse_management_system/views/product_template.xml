@@ -12,6 +12,7 @@
                         <field name="b_d_detail" />
                         <field name="b_d_date" />
                         <field name="status" />
+                        <field name="category"/>
                         <field name="rfu_plan" />
                         <field name="part_description" />
                         <field name="no_mrd" />
