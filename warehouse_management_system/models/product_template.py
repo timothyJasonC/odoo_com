@@ -13,6 +13,7 @@ class SaleOrder(models.Model):
         ('unnder_progress', 'Under Progress'),
     ], string="Status", tracking=True)
     rfu_plan = fields.Char(string="Plan RFU")
+    category = fields.Text(string="Category")
     part_description = fields.Text(string="Part Description")
     no_mrd = fields.Char(string="No. MRD")
     eta = fields.Char(string="ETA")
